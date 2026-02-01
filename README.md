@@ -39,23 +39,4 @@ docker compose up -d
 —-
 
 
-##🧠 Download Models
 
-```bash
-docker exec -it ollama ollama pull llama3
-docker exec -it ollama ollama pull mistral
-—-
-
-
-##🔐 Security Notes
-	•	Authentication enabled by default
-	•	All data stored locally
-	•	No external API calls
-	•	Works fully offline after model download
-
-⸻
-
-##🧪 Tested On
-	•	Fedora Linux
-	•	Ubuntu 22.04
-	•	Docker Compose v2
